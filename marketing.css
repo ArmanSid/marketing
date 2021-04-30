@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+nav{
+    position:sticky;
+    top: 0;
+    /* left: 0; */
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    /* color: white; */
+    margin: 0%;
+    padding: 0%;
+}
+#logo{
+    position: relative
+    ;
+    width: 100%;
+}
+#logo img{
+    display: block;
+    width: 100%;
+    height: 490px;
+    margin: 0%;padding: 0%;
+
+}
+#logo span{
+    background: black;
+    color: white;
+    padding: 4px 9px;
+    position:absolute;
+    bottom: 5%;
+    left:5%;
+
+}
+nav ul li{
+    margin: 0%;
+    padding: 0%;
+}
+nav ul li a{
+    display: block;
+    /* margin: 3px 4px; */
+    padding: 10px 36px;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+.active{
+    background: rgb(5, 182, 108);
+}
+/* team section  */
+.member img{
+    display: block;
+    width: 100%;
+    height:13.5rem;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 50%;
+}
+ h3,h4,p,h2{
+    text-align:center;
+    
+}
+/* change color of text in work section  */
+/* #work h3,h4,p{ */
+    /* color: white; */
+
+#team{
+    display: flex;
+    height: 23rem;
+}
+.member{
+    display: block;
+    width: 20%;
+    padding:4%;
+    height:80%;
+    
+}
+/* work section  
+*/
+/* work image  */
+.box img{
+    display: block;
+    width:100%;
+}
+/* box section  */
+.box{
+    display: block;
+    width: 33%;
+    padding: 1.2%;
+    margin: 1%;
+    height: 25rem;
+    color:black;
+    background: white;
+
+}
+/* making all box align in right section  */
+.right{
+    display: flex;
+    width: 76%;
+    background:black;
+    margin-left: 2%;
+}
+.left{
+    display: block;
+    width :22%;
+    background: black;
+    color: white;
+}
+
+#work{
+    display: flex;
+    background:black;
+    margin:auto;
+    padding: 3%;
+
+}
+/* pricebox tutorial  */
+     /* pricebox styling  */
+/* setting width of pricebox 
+ */
+ .pricebox{
+    display: block;
+    width: 30.99%;
+    margin: auto;
+    /* border: 2px solid goldenrod; */
+}
+/* pricebox 3d effect */
+.pricebox:hover{
+    box-shadow: wheat 6px 10px 18px;
+}
+/* using flexbox to align all items in a single line 
+ */
+.inner_container{
+   display: flex;
+   margin: auto ;
+   padding: 0.5em;
+}
+.container{
+    padding-top: 1.2em;
+}
+
+.pricebox ul li {
+   border: 0.2px solid rgba(128, 128, 128, 0.432);
+   text-align:center;
+   border-bottom: none;
+}
+.pricebox ul{
+   list-style-type: none;
+   padding: 0%;
+   margin: 0%;
+   width: 100%;
+
+}
+.xlarge{
+   color: white;
+   background: black;
+   padding: 15px 18px;
+}
+.normal,b{
+   padding: 12px 15px ;
+}
+.xtrawid{
+   padding: 24px 26px;
+}
+.btn_padding{
+   padding: 18px 20px;
+   background: cyan;
+}
+.signUpbtn{
+   padding: 10px 16px;
+   color: white;
+   background: rgba(3, 206, 138, 0.753);
+   border: none;
+   font-size: 1em;
+
+}
+.signUpbtn:hover{
+    color:white;
+    background: green;
+}
+/* designing the form card  */
+.form_card{
+    display: block;
+    position: relative;
+    width: 70%;
+    margin:5% auto;
+    padding: 4%;
+    border: lightsteelblue 0.4px solid ;
+
+}
+/* designing the input button  */
+.form_padding input{
+    width:100%;
+    border: none;
+    border-bottom: 0.5px solid rgba(119, 136, 153, 0.959);
+    margin-bottom: 0.8em;
+}
+.send_button{
+    position:absolute;
+    bottom: 8px;
+    right: 25px;
+    background: black;
+    color: wheat;
+    padding: 5px 8px;
+}
+.checky{
+    margin: 1em;
+    margin-left: 0em;
+}
+
+/* to make both appearences consistent  */
+.ham{
+    display: none;
+}
+#contact h1{
+    text-align: center;
+    font-weight: bold;
+    font: 3.6em ;
+    margin-top:2em;
+
+}
